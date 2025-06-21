@@ -27,3 +27,17 @@ This is a beginner-friendly Python project that scans a range of IP addresses an
 3. Run the script:
    ```bash
    python ping_scanner.py
+
+## ICMP
+
+Internet Control Message Protocol
+It's a network layer protocol used to send control messages between devices — mainly to report errors and network status.
+
+When you run:
+ping 192.168.1.1
+
+This is what happens:
+
+- Your computer sends an ICMP Echo Request
+- The target device replies with an ICMP Echo Reply
+- If reply is received → the device is alive and reachable
