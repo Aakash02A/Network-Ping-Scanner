@@ -26,7 +26,7 @@ This is a beginner-friendly Python project that scans a range of IP addresses an
 2. Replace the subnet in the script with your real one (use `ipconfig` or `ifconfig`)
 3. Run the script:
    ```bash
-   python ping_scanner.py
+   python networkscanner.py
 
 ## ICMP
 
